@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #beae97;
+}
+.nav-link {
+  color: #beae97;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+}
+.mouse {
+  width: 20px;
+  height: 20px;
+}
+body {
+  background: rgb(47, 46, 46);
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-mouse {
+  display: flex;
+  gap: 10px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 105px;
+}
+.nav-tell {
+  display: flex;
+  gap: 10px;
+}
+.navi-name {
+  display: flex;
+}
+.navi-motiv {
+  display: flex;
+}
+.navi-font {
+  display: flex;
+}
+.navi-font {
+  gap: 50px;
+}
+.input {
+  background-color: #12110f;
+  width: 700px;
+  height: 48px;
+  gap: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 0px 2px 1px white;
+}
+.navi-team {
+  width: 1200px;
+  height: 48px;
+  margin: 0 auto;
+}
+.input i {
+  padding-left: 500px;
+}
+.input h6 {
+  padding-left: 50px;
+}
+.text {
+  width: 165px;
+  height: 48px;
+  gap: 20px;
+  border-radius: 4px;
+  background: #2b2825;
+  box-shadow: 1px 1px 10px 1px white;
+}
+.text span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navi-team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu {
+  padding: 32px 16px;
+}
+
+/* Navbari */
+/* cacao */
+.Cacao {
+  background-image: url(./public/img/Mademalsate.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.cacao {
+  margin-top: 20px;
+}
+.cacao-text {
+  font-weight: 600;
+  font-size: 34px;
+  text-align: center;
+}
+.ca-text {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.besh {
+  font-weight: 800;
+  text-align: center;
+}
+.img-cacao {
+  padding-top: 120px;
+  width: 1000px;
+}
+.ca-text {
+  margin-top: 30px;
+}
+.har-text {
+  font-weight: 400;
+  font-size: 24px;
+}
+.gullar {
+  width: 1300px;
+  height: 459px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.har-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.one-gul {
+  text-align: center;
+  background-image: url(./public/img/xushboy.png);
+  background-size: cover;
+  background-position: center;
+  width: 522px;
+  height: 400px;
+}
+.two-gul {
+  text-align: center;
+  background-image: url(./public/img/yoqimli.png);
+  background-size: cover;
+  background-position: center;
+  width: 359px;
+  height: 400px;
+}
+.three-gul {
+  text-align: center;
+  background-image: url(./public/img/ifor.png);
+  background-size: cover;
+  background-position: center;
+  width: 359px;
+  height: 400px;
+}
+.bir-xil {
+  padding: 10px 75px;
+  gap: 20px;
+  font-size: 20px;
+  background-color: #2b2825;
+  box-shadow: 1px 0px 2px 1px white;
+}
+.one-gul p {
+  padding: 10px;
+  padding-top: 275px;
+}
+.two-gul p {
+  padding: 10px;
+  padding-top: 275px;
+}
+.three-gul p {
+  padding: 10px;
+  padding-top: 275px;
+}
+.ha-text {
+  padding-top: 30px;
+  padding-bottom: 17px;
+}
+
+.koinot {
+  margin-top: 140px;
+  background-image: url(./public/img/koinot.png);
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+.text-uch {
+  font-weight: 400;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.textlar {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 35px;
+}
+.koinot-text {
+  margin-left: 180px;
+}
+.bu-xil {
+  padding: 10px 50px;
+  border-radius: 4px;
+  background-color: #2b2825;
+  border: none;
+  box-shadow: 0px 0px 3px 0px white;
+  margin-top: 30px;
+}
+.har-tex {
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.koplab {
+  padding: 10px 50px;
+  background-color: #2b2825;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.kamlab {
+  margin-left: 70px;
+}
+
+.koplab:hover {
+  background: linear-gradient(
+    92.38deg,
+    #c09e6c -1.94%,
+    #ffebcc 40.99%,
+    #bf936b 98.79%
+  );
+}
+
+.ishlatish {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.all-kollek {
+  margin-top: 21px;
+  width: 305px;
+  height: 500px;
+  border-radius: 4px;
+  padding: 30px;
+  background: #36332e;
+}
+.bular-tomon {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+  padding-left: 10px;
+}
+.nuil {
+  margin-top: 50px;
+}
+.bir-tomon {
+  width: 34px;
+  height: 34px;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #36332e;
+  border: none;
+  box-shadow: 0px 0px 0px 1px white;
+}
+.bir-tomon:active {
+  background: linear-gradient(
+    95.25deg,
+    #c09e6c -5.68%,
+    #ffebcc 41.36%,
+    #bf936b 104.69%
+  );
+}
+.start {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.nuil {
+  margin-top: 30px;
+}
+.price {
+  font-weight: 700;
+  font-size: 24px;
+}
+.tugma {
+  margin-top: 30px;
+  padding: 10px 90px;
+  background-color: #36332e;
+  border: none;
+  box-shadow: 0px 0px 0px 1px white;
+  border-radius: 3px;
+}
+
+.add-collec {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+.tugma:hover {
+  background: linear-gradient(
+    95.25deg,
+    #c09e6c -5.68%,
+    #ffebcc 41.36%,
+    #bf936b 104.69%
+  );
+}
+.raqamlar {
+  justify-content: space-between;
+  background-color: #36332e;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.birr-tomon {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #36332e;
+  border: none;
+}
+.two-tomon {
+  display: flex;
+}
+.three-tomon {
+  display: flex;
+}
+.bir-tomo {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #36332e;
+  border: none;
+  margin-left: 20px;
+}
+.birr-tomon:hover {
+  background-color: #b7a08b;
+}
+.footer {
+  background-color: #12110f;
+  height: 440px;
+}
+.img-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.text-all {
+  display: flex;
+}
+
+.text-on {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.text-on p {
+  display: flex;
+  padding-left: 17px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.text-off {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  width: 700px;
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.text-off p {
+  display: flex;
+  padding-left: 17px;
+  align-items: center;
+}
+
+.text-two {
+  padding-left: 70px;
+}
+.text-tw {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  margin-left: -200px;
+}
+.text-tw p {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+  align-items: center;
+}
+.text-oll {
+  display: flex;
+  align-items: center;
+  margin-left: -200px;
+  padding-top: 30px;
+}
+.text-oll p {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+.text-oll {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 30px;
+  margin-left: -200px;
+}
+.text-oll p {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.text-th {
+  display: flex;
+  padding-top: 30px;
+  margin-left: 200px;
+}
+
+.text-thr {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+
+.text-thr {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 30px;
+  margin-left: 200px;
+}
+.text-thr p {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.para {
+  text-align: center;
+}
+.parad {
+  padding-top: 60px;
+}
